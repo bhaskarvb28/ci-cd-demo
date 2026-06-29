@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.send(`
-    <h1>🚀 CI/CD Demo V2</h1>
+    <h1>🚀 CI/CD Demo new version</h1>
     <h2>Application deployed by Jenkins!</h2>
   `);
 });
